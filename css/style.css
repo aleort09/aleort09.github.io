@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Lexend+Deca:wght@100..900&family=Londrina+Solid:wght@100;300;400;900&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Londrina+Solid:wght@100;300;400;900&family=Luckiest+Guy&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.carta{
+    padding: 5vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    overflow: auto;
+}
+.carta img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.carta .datos{
+    padding: 3vh;
+}
+.nombre{
+    font-size: 70px;
+    margin: 0;
+    font-family: "Londrina Solid";
+    font-weight: 700;
+}
+
+.texto{
+    margin-top: 3vh;
+    font-family: "Lexend Deca";
+}
+
+.texto1{
+    font-family: "Lexend Deca";
+    width: 7vh;
+}
+
+.columnas{
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 60%;
+    font-family: "Lexend Deca";
+
+}
+.hobbies{
+    padding-left: 2vh;
+}
+.lista{
+    padding-left: 3vh;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.item{
+    font-family: "Lexend Deca";
+    margin-top: 1vh;
+}
+#habilidades{
+    margin-top: 3vh;
+}
+#social{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    margin-top: 3vh;
+}
+#social .icon{
+    width: 30px;
+    height: 30px;
+}
+.barra{
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.html{
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+    height: 5vh;
+}
+.css{
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+    height: 5vh;
+}
+.php{
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+    height: 5vh;
+}
+.java{
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+    height: 5vh;
+}
+.c{
+    margin-left: 3vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vh;
+    height: 5vh;
+}
+.ht{
+    width: 85%;
+    background-color: #3e34a2;
+    color: #fff;
+    display: flex;
+    justify-content:right;
+    padding-right: 2vh;
+    align-items:center;
+    font-family: "Lexend Deca";
+}
+.ht1{
+    width: 15%;
+    color: #eaeaea;
+    background-color:#eaeaea;
+}
+
+.cs{
+    width: 89%;
+    background-color: #3e34a2;
+    color: #fff;
+    display: flex;
+    justify-content:right;
+    padding-right: 2vh;
+    align-items:center;
+    font-family: "Lexend Deca";
+}
+.cs1{
+    width: 11%;
+    color: #eaeaea;
+    background-color:#eaeaea;
+}
+.ph{
+    width: 70%;
+    background-color: #3e34a2;
+    color: #fff;
+    display: flex;
+    justify-content:right;
+    padding-right: 2vh;
+    align-items:center;
+    font-family: "Lexend Deca";
+}
+.ph1{
+    width: 30%;
+    color: #eaeaea;
+    background-color:#eaeaea;
+}
+.ja{
+    width: 70%;
+    background-color: #3e34a2;
+    color: #fff;
+    display: flex;
+    justify-content:right;
+    padding-right: 2vh;
+    align-items:center;
+    font-family: "Lexend Deca";
+}
+.ja1{
+    width: 30%;
+    color: #eaeaea;
+    background-color:#eaeaea;
+}
+.c1{
+    width: 60%;
+    background-color: #3e34a2;
+    color: #fff;
+    display: flex;
+    justify-content:right;
+    padding-right: 2vh;
+    align-items:center;
+    font-family: "Lexend Deca";
+}
+.c11{
+    width: 40%;
+    color: #eaeaea;
+    background-color:#eaeaea;
+}
